@@ -1,5 +1,10 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<h1 id="title">UdaciMeals - Ember</h1>
 
-{{outlet}}
+<div class="container">
+
+  {{order-tracker}}
+
+  <h3>{{link-to 'Show menu' 'menu'}}</h3>
+
+  {{outlet}}
+</div>

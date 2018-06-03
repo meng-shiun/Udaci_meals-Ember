@@ -1,0 +1,9 @@
+<!-- {{log model}} -->
+
+<ul class="items-container">
+  {{#each model as |item|}}
+    {{menu-item food=item}}
+  {{/each}}
+</ul>
+
+{{outlet}}

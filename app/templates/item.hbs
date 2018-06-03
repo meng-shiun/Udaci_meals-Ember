@@ -1,0 +1,10 @@
+<h4>{{model.name}}</h4>
+<img src="/img/{{model.image}}" alt="{{model.name}}">
+<p>{{model.rating}}</p>
+<p>{{model.description}}</p>
+
+<!-- <p><a href="/item/{{model.id}}/nutrition">Nutrition</a></p> -->
+<p>
+  {{#link-to 'item.nutrition'}}Nutrition{{/link-to}}
+</p>
+{{outlet}}
